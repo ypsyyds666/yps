@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-        transform: rotate(90deg);
+    transform: rotate(90deg);
 
 }
 
@@ -12,9 +12,15 @@ body {
 span.check{
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 21px;
+    font-size: 40px;
 }
-
+@media screen and (max-width: 845px) {
+    * {
+      transform: rotate(90deg);
+      width: 50vh;
+      height: 100vw;
+    }
+  }
 /*<!DOCTYPE html>
 <html lang="en">
 
